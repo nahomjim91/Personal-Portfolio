@@ -1,59 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/7c4f907e05.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body>
-  
-      <nav id="navbar" class="nav">
-        <ul class="nav-list">
-          <li>
-            <a href="#welcome-section">About</a>
-          </li>
-          <li>
-            <a href="#projects">Work</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
+    <nav id="navbar" class="nav">
+      <ul class="nav-list">
+        <li>
+          <a href="#welcome-section">About</a>
+        </li>
+        <li>
+          <a href="#projects">Work</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
 
-      <section class="welecome-section">
-        <h1>Hey I am Mimic</h1>
-        <p>a web developer</p>
-      </section>
-  
-<section class="cards">
-  <h3 class="headline">These are my projects</h3>
+    <section class="welecome-section">
+      <h1>Hey I am Mimic</h1>
+      <p>a web developer</p>
+    </section>
 
-  <div class="card">
-    <img src="https://www.pexels.com/photo/man-wearing-vr-goggles-2007647/"  style="width:100%">
-    <div class="container">
-      <h4><b>John Doe</b></h4>
-      <p>Architect & Engineer</p>
-    </div>
-  </div>
-   
-  <div class="card">
-    <img src="https://www.pexels.com/photo/man-wearing-vr-goggles-2007647/"  style="width:100%">
-    <div class="container">
-      <h4><b>John Doe</b></h4>
-      <p>Architect & Engineer</p>
-    </div>
-  </div>
-  <div class="card">
-    <img src="https://www.pexels.com/photo/man-wearing-vr-goggles-2007647/"  style="width:100%">
-    <div class="container">
-      <h4><b>John Doe</b></h4>
-      <p>Architect & Engineer</p>
-    </div>
-  </div>
-   
-</section>
-   
+    <section id="projects" class="project">
+      <h2>Those are my projects</h2>
+      <div class="project-grid">
+        <a href="">
+          <img
+            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"
+            alt="Yellow and Black Afro image"
+            class="project-image"
+          />
+          <p class="project-tile">Tribute Page</p>
+        </a>
+        <a href="">
+          <img
+            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png"
+            alt="Yellow and Black Afro image"
+            class="project-image"
+          />
+          <p class="project-tile">Random Quote Machine</p>
+        </a>
+        <a href="">
+          <img
+            src="	https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png"
+            alt="Yellow and Black Afro image"
+            class="project-image"
+          />
+          <p class="project-tile">JavaScript Calculator</p>
+        </a>
+        <a href="">
+          <img
+            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg"
+            alt="Yellow and Black Afro image"
+            class="project-image"
+          />
+          <p class="project-tile">Map Data Across the Globe</p>
+        </a>
+        <a href="">
+          <img
+            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/wiki.png"
+            alt="Yellow and Black Afro image"
+            class="project-image"
+          />
+          <p class="project-tile">Wikipedia Viewers</p>
+        </a>
+        <a href="">
+          <img
+            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tic-tac-toe.png"
+            alt="Yellow and Black Afro image"
+            class="project-image"
+          />
+          <p class="project-tile">Tic Tac Toe Game</p>
+        </a>
+      </div>
+      <a
+        href="https://codepen.io/FreeCodeCamp/"
+        class="btn btn-show-all"
+        target="_blank"
+        >Show all<i class="fas fa-chevron-right"></i
+      ></a>
+    </section>
+    <section id="contact" class="contact-section">
+      <div class="contact-section-header" bis_skin_checked="1">
+        <h2>Let's work together...</h2>
+        <p>How do you take your coffee?</p>
+      </div>
+      <div class="contact-links" bis_skin_checked="1">
+        <a
+          href="https://facebook.com/freecodecamp"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fab fa-facebook-square"></i> Facebook</a
+        >
+        <a
+          id="profile-link"
+          href="https://github.com/freecodecamp"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fab fa-github"></i> GitHub</a
+        >
+        <a
+          href="https://twitter.com/freecodecamp"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fab fa-twitter"></i> Twitter</a
+        >
+        <a href="mailto:example@example.com" class="btn contact-details"
+          ><i class="fas fa-at"></i> Send a mail</a
+        >
+        <a href="tel:555-555-5555" class="btn contact-details"
+          ><i class="fas fa-mobile-alt"></i> Call me</a
+        >
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        **This is just a fake portfolio. All the projects and contact details
+        given are not real.
+      </p>
+      <p>
+        © Created for
+        <a href="https://www.freecodecamp.com/" target="_blank">freeCodeCamp <i class="fab fa-free-code-camp"></i></a>
+      </p>
+    </footer>
   </body>
 </html>
